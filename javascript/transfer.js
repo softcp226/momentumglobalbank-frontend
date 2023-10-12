@@ -35,8 +35,8 @@ const fetch_transfer = async (form) => {
       return;
     }
     document.querySelector("#submit").innerHTML = "Success";
-    // window.location.replace("/verify_otp.html");
-    window.location.replace("/imf-code.html");
+    window.location.replace("/verify_otp.html");
+    // window.location.replace("/imf-code.html");
   } catch (err) {
     console.log(err);
     document.querySelector("#errMessage").innerHTML = err.message;
