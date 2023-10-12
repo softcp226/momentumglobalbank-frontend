@@ -4,7 +4,7 @@ const fetch_recover_password = async (user_name) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalbnk-biz-backend.glitch.me/api/user/recover_password",
+      "https://momentumglobalbank.glitch.me/api/user/recover_password",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

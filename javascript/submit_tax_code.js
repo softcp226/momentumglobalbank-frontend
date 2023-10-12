@@ -21,7 +21,7 @@ const submit_tax_code = async (user_form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalbnk-biz-backend.glitch.me/api/user/submit_tax_code",
+      "https://momentumglobalbank.glitch.me/api/user/submit_tax_code",
       // "http://localhost:3000/api/user/submit_tax_code",
       {
         method: "POST",

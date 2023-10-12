@@ -21,7 +21,7 @@ const submit_imf_code = async (user_form) => {
   document.querySelector("#submit").innerHTML = "Proccessing...";
   try {
     const response = await fetch(
-      "https://zionintercontinentalbnk-biz-backend.glitch.me/api/user/submit_imf_code",
+      "https://momentumglobalbank.glitch.me/api/user/submit_imf_code",
       // "http://localhost:3000/api/user/submit_imf_code",
       {
         method: "POST",

@@ -17,7 +17,7 @@ const submitForm = async (
   document.querySelector("#errMessage").innerHTML = "";
   try {
     const response = await fetch(
-      "https://zionintercontinentalbnk-biz-backend.glitch.me/api/submit/appointment",
+      "https://momentumglobalbank.glitch.me/api/submit/appointment",
       {
         method: "POST",
         headers: { "content-type": "application/json" },

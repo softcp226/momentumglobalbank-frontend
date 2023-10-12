@@ -1,0 +1,19 @@
+
+
+
+@keyframes move {
+    from{
+opacity: 0.5;
+    }
+    to{
+opacity: 1;
+    }
+}
+
+#jarallax-img{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
