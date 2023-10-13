@@ -25,7 +25,7 @@ function getCookie(cname) {
     }
   }
   // return "";
-  window.location.href = "/login.html";
+  window.location.href = "/signin.html";
 }
 
 let token_01 = getCookie("token_01");
