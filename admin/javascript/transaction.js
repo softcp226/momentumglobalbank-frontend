@@ -62,7 +62,7 @@ const setText = (userInfo) => {
   let admin = getCookie("admin");
   try {
     const response = await fetch(
-      "https://zionintercontinentalbnk-biz-backend.glitch.me/api/admin/transaction/fetch",
+      "https://momentumglobalbank.glitch.me/api/admin/transaction/fetch",
       {
         method: "POST",
         headers: { "content-type": "application/json" },
