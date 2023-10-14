@@ -38,16 +38,49 @@ const showSlides = () => {
   //   }
   const jarallax_img = document.querySelector("#jarallax-img");
   jarallax_img.style.animationPlayState = "running";
-  if (slides <= 2) {
-    jarallax_img.style.backgroundImage =
-      "url('css/assets/ingenico-US-Bank-services-02.png')";
-    slides += 2;
-    console.log(slides);
-  } else {
-    const jarallax_img = document.querySelector("#jarallax-img");
-    jarallax_img.style.backgroundImage = "url('css/assets/Bank Teller.webp')";
-    slides = 1;
-    console.log("other slide", slides);
+  // if (slides <= 2) {
+  //   jarallax_img.style.backgroundImage =
+  //     "url('css/assets/ingenico-US-Bank-services-02.png')";
+  //   slides += 2;
+  //   console.log(slides);
+  // } else {
+  //   const jarallax_img = document.querySelector("#jarallax-img");
+  //   jarallax_img.style.backgroundImage = "url('css/assets/Bank Teller.webp')";
+  //   slides = 1;
+  //   console.log("other slide", slides);
+  // }
+
+  switch (slides) {
+    case 1:
+      jarallax_img.style.backgroundImage =
+        "url('css/assets/ingenico-US-Bank-services-02.png')";
+      slides += 1;
+      // console.log(slides);
+      break;
+
+    case 2:
+      jarallax_img.style.backgroundImage = "url('css/assets/Bank Teller.webp')";
+      slides += 1;
+      // console.log("other slide", slides);
+      break;
+
+    case 3:
+      jarallax_img.style.backgroundImage = "url(css/assets/hero-img.jpg)";
+      slides += 1;
+      break;
+
+    case 4:
+      jarallax_img.style.backgroundImage =
+        "url(css/assets/stock market-img.webp)";
+      slides = 1;
+      break;
+
+    default:
+      jarallax_img.style.backgroundImage =
+        "url('css/assets/ingenico-US-Bank-services-02.png')";
+      slides += 1;
+      console.log(slides);
+      break;
   }
 };
 
