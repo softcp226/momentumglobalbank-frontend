@@ -55,7 +55,7 @@ const showSlides = () => {
       jarallax_img.style.backgroundImage =
         "url('css/assets/ingenico-US-Bank-services-02.png')";
       slides += 1;
-      // console.log(slides);
+
       break;
 
     case 2:
@@ -71,13 +71,13 @@ const showSlides = () => {
 
     case 4:
       jarallax_img.style.backgroundImage =
-        "url(css/assets/stock market-img.webp)";
+        "url(css/assets/new-york-stock-exchange-1-6510132-1691527227372.jpg)";
       slides = 1;
       break;
 
     default:
       jarallax_img.style.backgroundImage =
-        "url('css/assets/ingenico-US-Bank-services-02.png')";
+        "url(css/assets/new-york-stock-exchange-1-6510132-1691527227372.jpg)";
       slides += 1;
       console.log(slides);
       break;
