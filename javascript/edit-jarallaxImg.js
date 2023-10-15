@@ -66,14 +66,14 @@ const showSlides = () => {
 
     case 3:
       jarallax_img.style.backgroundImage = "url(css/assets/hero-img.jpg)";
-      slides += 1;
-      break;
-
-    case 4:
-      jarallax_img.style.backgroundImage =
-        "url(css/assets/new-york-stock-exchange-1-6510132-1691527227372.jpg)";
       slides = 1;
       break;
+
+  //  case 4:
+  //     jarallax_img.style.backgroundImage =
+  //       "url(css/assets/new-york-stock-exchange-1-6510132-1691527227372.jpg)";
+  //     slides = 1;
+  //     break; 
 
     default:
       jarallax_img.style.backgroundImage =
